@@ -1,5 +1,5 @@
 import React from 'react';
-import VideoListItem from './video_list_item';
+import VideoListItem from './video_list_item.jsx';
 
 export default props => (
     <ul className="col-md-4 list-group">
