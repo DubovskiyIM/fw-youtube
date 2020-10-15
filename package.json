@@ -1,10 +1,13 @@
 {
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "name": "youtube",
   "version": "1.0.0",
+  "homepage": "http://DubovskiyIM.github.io/fw-youtube",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
@@ -22,6 +25,7 @@
     "babel-loader": "^8.1.0",
     "css-loader": "^5.0.0",
     "dotenv-webpack": "^1.8.0",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^4.5.0",
     "style-loader": "^2.0.0",
     "webpack": "^5.1.0",

@@ -28,7 +28,7 @@ module.exports = {
     })
   ],
   devServer: {
-    host: '192.168.1.77',//your ip address
+    host: '192.168.1.77',
     port: 8080,
     disableHostCheck: true,
   }
